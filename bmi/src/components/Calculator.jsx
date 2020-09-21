@@ -10,7 +10,7 @@ function Calculator(){
     const handleWeightChange = (event) => setWeight(event.target.value);
     
     const computeBmi = () => {
-        let bmiValue = ((weight) / (height) ** 2);
+        let bmiValue = ((weight) / (height) ** 2).toFixed(2);
         setBmi(bmiValue);
         let bmiClass = getBmi(bmiValue);
         setBmiClass(bmiClass);
