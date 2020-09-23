@@ -9,16 +9,19 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div className="App">
-      <div className="container-fluid nav-_bg">
+      <div className="container-fluid nav-bg">
         <div className="row">
           <div className="col-10 mx-auto">
           <Navbar />
       <br></br>
       <Calculator />
-      <h3>A tabular comparison</h3>
+      <br></br>
+      <h1><span class="badge badge-dark">Compare</span></h1>
       <Table />
-      <h3>Contact Us for diet couselling</h3>
+      <br></br>
+      <h1><span class="badge badge-dark">Contact</span></h1>
       <Contact />
+      <br></br>
           </div>
         </div>
       </div>

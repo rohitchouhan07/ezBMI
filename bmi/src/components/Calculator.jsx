@@ -35,7 +35,7 @@ function Calculator(){
       };
     return(
         <>
-        <div class="card mx-auto rounded bg-light mb-4">
+        <div class="card mx-auto rounded col-5 bg-light mb-4">
              <div class="card-body ">
                 <h3 class="card-title"> ez BMI</h3>
                 <h6 class="card-subtitle mb-2 text-muted">An ez BMI Calculator</h6>

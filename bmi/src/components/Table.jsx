@@ -13,6 +13,7 @@ function Table(){
     ];
 
     return (
+      <div class = "col-4 mx-auto">
         <table class="table table-bordered">
         <thead>
          <tr>
@@ -31,6 +32,7 @@ function Table(){
     )}
     </tbody>
     </table>
+    </div>
     );
 }
 
